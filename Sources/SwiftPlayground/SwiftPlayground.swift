@@ -15,9 +15,8 @@ struct SwiftPlayground {
         else if userScore >= 70 && userScore <= 79 {
             print("A-: Exllent performance in most respects ") 
         }
-        else if userScore >=  && userScore <= {
-            print("performance") 
-        }
+        
+        
 
     }
 }
