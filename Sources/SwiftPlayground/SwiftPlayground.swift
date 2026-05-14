@@ -4,19 +4,12 @@
 @main
 struct SwiftPlayground {
     static func main() {
-        print("Enter your score:")
-        let userScore = Int(readLine()!)!
-        if userScore >= 90 && userScore <= 100{
-            print("a+: Outstanding performance") 
-        }
-        else if userScore >= 80 && userScore <= 89 {
-            print("A: Exellent performance") 
-        }
-        else if userScore >= 70 && userScore <= 79 {
-            print("A-: Exllent performance in most respects ") 
-        }
-        
-        
+        let items = ["Potion", "Ether", "Repel"]
+
+items.forEach { item in
+    print(item)
+}
 
     }
 }
+
