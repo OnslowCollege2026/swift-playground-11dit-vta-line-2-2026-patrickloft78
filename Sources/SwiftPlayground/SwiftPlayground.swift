@@ -4,15 +4,49 @@
 @main
 struct SwiftPlayground {
     static func main() {
-var invitees: [String] = []
-var adding = true 
-while adding == true {
-print("who do  you want to invite to the party?")
-let invitee = readLine()!
-if invitee == ""{
-    adding = false 
-}else{
-    invitees.append(invitee)
-}
-}
-}
+        var ingredients: [String] = []
+        var isRunning = true
+        while isRunning == true{
+             print("What ingredients do you have?")
+             let input = readLine()!
+             if input == ""{
+                isRunning = false 
+             } 
+             else if input == "chocolate"{
+                print("yum!")
+                
+                }
+             else {
+                ingredients.append(input)
+             }
+             }
+        print("Let's start cooking!")
+print("                 ⣤⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣸⣿⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡤⠴⠚⠋⠉⣾⣿⣿⣿⣿⣿⣿⣶⣤⣀⠀⠀⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⢀⡴⣏⠥⠒⠚⠉⠉⠙⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣶⣦⡄⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⣰⣿⠋⠀⠀⠀⠀⠀⠀⠀⠛⠋⠉⠀⠀⠙⠺⣿⣿⣿⣿⣿⣿⣿⠆⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⡼⠃⠈⢳⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⡿⢯⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⡼⠁⠀⢀⡿⡞⠈⠉⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⡿⠋⠁⠸⡆⠀⠀⠀")
+print("⠀ ⠀⢰⡧⢄⡀⣼⢻⠁⠀⠀⠀⠀⠀⠀⠀⠰⡄⠀⠀⠀⠀⠀⠈⠁⠘⡄⠀⠀⢷⠀⠀⠀")
+print("⠀⠀⢀⣿⠀⠠⡈⠉⠙⠒⠒⡗⠀⠀⠀⠀⠀⠁⡟⢦⡀⠀⠀⠀⠀⠀⠀⠹⡀⠀⠘⢦⡀⠀")
+print(" ⢠⣾⣽⠆⠀⣇⠀⠀⠀⠀⡼⡄⠀⠀⠀⠀⠀⡇⠀⠻⣦⡀⠠⡀⠀⠀⠀⡇⠉⣿⠚⠛⠓")
+print("⠘⠉⠁⢸⡀⠀⠘⣦⣰⣦⣀⣇⠙⣆⠀⠀⠀⠀⡇⠀⠀⠀⠙⠲⡇⠀⠀⡀⢹⠀⡏⠀⠀⠀")
+print("⠀ ⠀⠀⡇⠀⠀⢹⠙⣷⣈⠙⠶⠘⢷⡗⠦⢤⣿⠃⣠⣴⠄⠀⡇⠀⠀⡽⠺⢶⡁⠀⠀⠀")
+print("⠀ ⠀⠀⠹⣴⣄⠀⢧⠈⢙⣷⡦⠀⠀⠀⠀⠀⣴⣿⣋⣀⠀⠀⡟⣀⣼⣁⣄⢸⠁⠀⠀⠀")
+print("⠀⠀⠀⠀⢼⡟⠛⣿⣮⡿⢛⡉⠀⠀⠀⢠⠀⠀⠈⠉⠉⡹⠀⣸⣡⣟⠛⢿⡟⠻⣧⠀⠀⠀")
+print("⠀⠀⠀⠀⠉⠑⠺⣿⣿⣷⣄⡼⠀⠀⢤⡤⠤⢴⡀⠀⠀⢣⡼⠛⢉⣽⠟⠉⠁⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠈⢻⣿⣷⣤⣀⣀⣈⠳⠦⠞⣁⣠⠞⠉⣠⣾⡟⠁⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⠈⠻⢧⣽⣿⣿⣿⡿⢯⣀⡴⠋⠛⠁⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢹⢷⣿⣿⣧⢿⠁⠀⠀⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣸⠷⡿⣟⣿⠀⣇⠀⠀⠀⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⠟⢻⣿⣿⣿⣎⢙⣆⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣾⣷⡟⢻⠋⢸⡿⢾⣿⡦⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢻⡦⠤⢾⣤⡼⠷⢿⡟⠁⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⢸⠀⢷⠀⣸⢇⣤⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢳⣤⣼⠀⠈⠓⠛⠉⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣆⢸⠀⠀⠀⠀⠀⠀")
+print("⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠛⠀⠀⠀⠀⠀")
+
+    }}
+
