@@ -15,7 +15,7 @@ let taxRate: Double = 0.15
 //calculates the tax onto the subtotal
 let tax: Double = subtotal * taxRate
 // Calculates the total price 
-let total: Double = 
+let total: Double = subtotal - tax
 print("Price per item: $\(PricePerItem)")
 print("Quantity: \(quantity)")
 print("Subtotal: $\(subtotal)")
