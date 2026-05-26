@@ -20,6 +20,6 @@ print("Price per item: $\(PricePerItem)")
 print("Quantity: \(quantity)")
 print("Subtotal: $\(subtotal)")
 print("Tax (15%): $\(tax)") 
-print("Total: $\(19.99 * 3.0 * 1.15)")
+print("Total: $\(total)")
 
     }}
