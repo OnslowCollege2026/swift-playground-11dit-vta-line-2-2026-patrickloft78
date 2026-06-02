@@ -4,22 +4,7 @@
 @main
 struct SwiftPlayground {
     static func main() {
-// the price per item
-let PricePerItem: Double = 19.99
-//quantity 
-let quantity: Double = 3.0
-//subtotal
-let subtotal: Double =  PricePerItem * quantity
-//tax multiplier
-let taxRate: Double = 0.15
-//calculates the tax onto the subtotal
-let tax: Double = subtotal * taxRate
-// Calculates the total price 
-let total: Double = subtotal - tax
-print("Price per item: $\(PricePerItem)")
-print("Quantity: \(quantity)")
-print("Subtotal: $\(subtotal)")
-print("Tax (15%): $\(tax)") 
-print("Total: $\(total)")
+let total = 17.5 + 8.0 + 12.0
+print("Total cost is: $\(total)")
 
     }}
